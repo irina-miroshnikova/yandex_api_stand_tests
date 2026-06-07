@@ -28,6 +28,7 @@ yandex_api_stand_tests/
 ├── data.py                   # Test data
 ├── sender_stand_request.py   # API request helper functions
 ├── create_user_test.py       # Automated API tests
+├── requirements.txt          # Project dependencies
 ├── README.md                 # Project documentation
 └── .gitignore                # Ignored local and generated files
 ```
@@ -37,7 +38,7 @@ yandex_api_stand_tests/
 Install dependencies:
 
 ```bash
-pip install pytest requests
+pip install -r requirements.txt
 ```
 
 Run tests:
